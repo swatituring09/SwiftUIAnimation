@@ -14,6 +14,8 @@
 		CB9D5A762D81D7070076E876 /* SwiftUIAnimationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB9D5A752D81D7070076E876 /* SwiftUIAnimationTests.swift */; };
 		CB9D5A802D81D7070076E876 /* SwiftUIAnimationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB9D5A7F2D81D7070076E876 /* SwiftUIAnimationUITests.swift */; };
 		CB9D5A822D81D7070076E876 /* SwiftUIAnimationUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB9D5A812D81D7070076E876 /* SwiftUIAnimationUITestsLaunchTests.swift */; };
+		CB9D5A912D820C6C0076E876 /* ImageCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB9D5A902D820C6C0076E876 /* ImageCollectionView.swift */; };
+		CB9D5A932D8269610076E876 /* PaginationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB9D5A922D8269610076E876 /* PaginationView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +46,8 @@
 		CB9D5A7B2D81D7070076E876 /* SwiftUIAnimationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftUIAnimationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CB9D5A7F2D81D7070076E876 /* SwiftUIAnimationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIAnimationUITests.swift; sourceTree = "<group>"; };
 		CB9D5A812D81D7070076E876 /* SwiftUIAnimationUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIAnimationUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		CB9D5A902D820C6C0076E876 /* ImageCollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCollectionView.swift; sourceTree = "<group>"; };
+		CB9D5A922D8269610076E876 /* PaginationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaginationView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +102,8 @@
 				CB9D5A662D81D6FE0076E876 /* ContentView.swift */,
 				CB9D5A682D81D7060076E876 /* Assets.xcassets */,
 				CB9D5A6A2D81D7060076E876 /* Preview Content */,
+				CB9D5A902D820C6C0076E876 /* ImageCollectionView.swift */,
+				CB9D5A922D8269610076E876 /* PaginationView.swift */,
 			);
 			path = SwiftUIAnimation;
 			sourceTree = "<group>";
@@ -257,7 +263,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CB9D5A932D8269610076E876 /* PaginationView.swift in Sources */,
 				CB9D5A672D81D6FE0076E876 /* ContentView.swift in Sources */,
+				CB9D5A912D820C6C0076E876 /* ImageCollectionView.swift in Sources */,
 				CB9D5A652D81D6FE0076E876 /* SwiftUIAnimationApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
